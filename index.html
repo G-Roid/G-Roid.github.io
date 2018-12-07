@@ -12,12 +12,12 @@
 	
 	#vegan-welcome {
 		background: rgb(45, 100, 20);
-		font-size: 30px;
+		font-size: 20px;
 		border: 3px dashed rgb(230, 230, 0);
 		padding: 20px;
 		position: absolute;
 		top: 50px;
-		left: 900px;
+		left: 1025px;
 		z-index: 1;
 	
 	}
@@ -43,7 +43,7 @@
 	
 	body {
 		background-color: rgb(112, 191, 188);
-		font-family: fantasy;
+		font-family: georgia;
 		font-size: 20px;
 	}
 	
@@ -87,7 +87,7 @@
 		width: 1200px;
 		margin: auto;
 		padding: 30px;
-		border: 5px solid rgb(90, 50, 200);
+		border: 10px ridge rgb(255, 183, 0);
 		border-top: 30px solid purple;
 		position: absolute;
 		z-index: 2;
@@ -134,6 +134,22 @@
 		width: 30%;
 		padding: 10px;
 	}
+	
+	.fact {
+		border-top: 3px solid rgb(222, 222, 222);
+		border-bottom: 3px solid rgb(222, 222, 222);
+		padding-top: 6px;
+		padding-bottom: 6px;
+	}
+	
+	.warning {
+		background-color: rgb(255, 0, 0);
+		color: white;
+	}
+	
+	p.warning { 
+		border: 7px solid purple;
+	}
 			
 	</style>
     </head>
@@ -147,7 +163,7 @@
 	
 	<div class="main-sheet">
 	
-    <h1>All about Maine Coons!</h1>
+    <h1>All About Maine Coons!</h1>
 	
 	
 	
@@ -323,6 +339,25 @@ Run kitty - run kitty </p>
 <a href="#"> Maine Coons</a>
 	
 	<div/>
+	
+	<h2>Cat Facts</h2>
+		<p class="fact warning">     <!-- Multiple Class -->
+			Warning: owning multiple cats can have adverse effects on your heath. Please consult your doctor if problems persist.
+		</p class="fact">
+		Cats have a reflective layer in their eyes, known as the tapetum lucidum, which magnifies incoming light allowing them to see up to 6 times better than humans can in low light.
+		Cats (as well as dogs) also have a ‘third eyelid’ called the <strong class="warning">nictitating membrane </strong> which is found on the inside corner of the eye which is an extra protective function of the eye.
+		</p>
+		
+		<p class="fact">
+		Cats can be trained. Teach your cat to share a “high five” with you by rewarding her with a special treat every time she lifts her paw.
+		</p>
+		
+		<p class="fact">
+		Cats have 32 muscles in their ears (humans have only 12). This gives the ear mobility, enabling it to precisely locate prey such as mice or the opening of their cat food! Cats can also hear frequencies that are both below and above those that can be heard by humans.
+		The ear also has the job of helping to maintain balance and the ability to right themselves when falling – which is where the phrase “Cats always land on their feet” came from.
+		</p>
+	
+
 	
 		<p id="footer"> ALL MAINE COON RELATED ENQUIRES - PLEASE CONTACT <em>"1800 CAT CARE" </em>
     </body>
